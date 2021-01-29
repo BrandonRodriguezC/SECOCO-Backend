@@ -7,6 +7,8 @@ Este es un servidor con servicios API REST, desplegado en Glitch y elaborado en 
 * Modulo firebase-admin (firebase)
 * Modulo express 
 * Modulo body-parser
+* Modulo node-fetch
+* Modulo point-in-polygon
 
 ## Base de Datos
 Google Cloud Firestore - secocoda@gmail.com 
