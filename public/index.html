@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>HTML</title>
+    <title>SECOCO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Link estilos
   <link rel="stylesheet" href="styles.css"> -->
@@ -16,18 +16,20 @@
     }
     
     html {
+      padding: 0;
       width: 100vw;
-      height: 100vh;
+      height: auto;
     }
     
     body {
-      background-color: #0c2461;
       font-family: "Roboto", sans-serif;
     }
     
     .flex {
+      background-color: #0c2461;
       display: flex;
       font-size: 40px;
+      height: 100vh;
     }
     
     .block {
@@ -36,13 +38,23 @@
       height: 50vh;
       margin: auto;
       text-align: center;
-      padding-top: 12vh;
     }
     
-    img {
+    .blockFinal {
+      width: 50vw;
+      height: 50vh;
+      text-align: center;
+    }
+    
+    img{
       width: 100%;
       height: auto;
     }
+    
+    div {
+      margin:0
+    }
+    
   </style>
   <body>
     <div class="flex">
@@ -53,13 +65,39 @@
           🚀 Node.js
         </h1>
         <h4 style="font-size: 18px">
-          Creado por Brandon R, Diego M, Cristian C
+          Colaboradores Brandon R, Diego M, Cristian C
         </h4>
       </div>
       <div class="block">
-        <img
+        <img class="foto"
           src="https://64.media.tumblr.com/24af2bad23099e7adccd100f36a8dff0/2c53b409f59c64e0-3d/s2048x3072/d1ca3f018c36761ed0a448451423cb025d6b4d19.png"
         />
+      </div>
+    </div>
+    <div  style="background: white; position: relative; color: black;  text-align: center; padding: 0;">
+      <div style = "color: black; width: 80vw; text-align: center; margin: auto; padding: 5%">
+        <h1>
+          Descripción
+        </h1>
+        <p style="font-size: 18px">
+          Este es un servidor con servicios API REST, desplegado en Glitch y elaborado en Node.js utilizando Express como framework, mientras la capa de persistencia pertenece a Google Cloud Firestore.
+        </p>
+      </div>
+      <div style= "padding: 2%">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kChV9Q-SYGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="blockFinal" >
+        <img    
+          src="https://64.media.tumblr.com/45590a1a0661343e2e04aa8836373706/2c53b409f59c64e0-80/s1280x1920/a0097906d2219e07a782786f37fbdedde79a429d.png"
+        />
+      </div>
+      <div class="block">
+        <h1>Descarga <br>la  apk 📱 </h1>
+        <h4 style="font-size: 18px">
+          <a>link de descarga...</a>
+        </h4>
       </div>
     </div>
   </body>
